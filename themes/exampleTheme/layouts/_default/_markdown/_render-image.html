@@ -1,0 +1,3 @@
+{{ if (resources.GetMatch .Destination) }}
+  <img src="{{ ((resources.GetMatch .Destination).Fit).RelPermalink | safeURL }}" alt="{{ .Text }}" />
+{{ end }}

@@ -1,0 +1,20 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Anne Wilson'
+theme = 'exampleTheme'
+
+sectionPagesMenu = true
+
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "Github"
+    weight = 0
+    url = "https://github.com/AnneW563"
+[[menu.main]]
+    name = "Projects"
+    weight = 0
+    url = "/projects/"
