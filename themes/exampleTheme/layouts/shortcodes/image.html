@@ -1,0 +1,18 @@
+{{ if .IsNamedParams }}
+
+    {{$src := .Get "src" }}
+    {{ $width := .Get "width" | default "100%" }}
+
+    {{ if .Get "caption" }}
+        {{ $caption := .Get "caption" }}
+        <figure>
+            <img src="{{ $src }}" width="{{ $width }}" alt="{{ $caption }}">
+            <figcaption>{{ $caption }}</figcaption>
+        </figure>
+    {{else}}
+        <img src="{{ $src }}" width="{{ $width }}">
+    {{end}}
+    
+{{ else }}
+    <img src="{{ .Get 0 }}" width="100%" alt="">
+{{ end }}

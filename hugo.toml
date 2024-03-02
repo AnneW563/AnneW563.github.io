@@ -11,10 +11,7 @@ sectionPagesMenu = true
     identifier = "home"
     url = "/"
 [[menu.main]]
-    name = "Github"
-    weight = 0
-    url = "https://github.com/AnneW563"
-[[menu.main]]
     name = "Projects"
     weight = 0
     url = "/projects/"
+
