@@ -13,7 +13,8 @@ Professional Certificate. The scenario is that a fictional bike-sharing
 company, Cyclistic, operating in Chicago, wishes to encourage more of
 their casual riders to become annual members. 
 
-Full details of the cleaning, processing and analysing of the data are available on [GitHub](https://github.com/AnneW563/Cyclistic-case-study).
+The analysis was carried out using R, and full details of the cleaning, processing and analysing 
+of the data are available on [GitHub](https://github.com/AnneW563/Cyclistic-case-study).
 
 The data used is publicly available data from the City of Chicago’s Divvy bicycle sharing service.
 The license details for this data can be found
@@ -43,7 +44,7 @@ could be relatively few riders using the bikes every day, several times
 a day, or there could be lots of riders taking the bikes out just once
 or twice in the year. This is something that could be very different
 between members and casual riders, and is important to take note of when
-considering the likelihood that casual riders will choose to become
+considering whether casual riders are likely to choose to become
 members.
 
 ## Analysis
@@ -53,9 +54,9 @@ day and the day of the week that the bikes were used by the two groups
 of riders. There were also differences in the lengths of the rides and
 the stations which were most used. I also looked at variations in the
 number and length of rides across the year, but these were very similar
-for both groups of riders. These differences suggest that more of the
-rides made by casual riders were for leisure than is the case for rides
-made by members, which were more likely to be for commuting.
+for both groups of riders. The differences suggest that more of the rides 
+made by casual riders are for leisure, whereas for members they are more 
+likely to be for commuting.
 
 ### Number of trips by day of week
 
@@ -65,17 +66,19 @@ its highest on week days, the reverse is true for casual riders - they
 are using the bikes most often at weekends.
 
 {{< image src="/projects/cyclistic_report/unnamed-chunk-3-1.png" width="80%">}}
+&nbsp;
 
 ### Number of rides by time of day
 
-The plot shows the number of rides taken for each hour of the day for
+The plot below shows the number of rides taken for each hour of the day for
 each group of riders. The number of rides made by casual riders
-gradually increases through the day up until 5pm and then decreases. The
-number of rides made by the Cyclistic members has two peaks, one at 8am
-and the other at 5pm, suggesting that a lot of these rides are for
+gradually increases through the day until 5pm and then decreases. The
+number of rides made by the Cyclistic members has two peaks, at 8am
+and 5pm, suggesting a lot of these rides are for
 commuting to work.
 
 {{< image src="unnamed-chunk-6-1.png" width="80%">}}
+&nbsp;
 
 ### Average ride length by day of week
 
@@ -92,6 +95,7 @@ the whole week, the mean ride length for casual riders is 23 minutes and
 for members, it is 12 minutes.
 
 {{< image src="unnamed-chunk-9-1.png" width="80%">}}
+&nbsp;
 
 A closer look at the distribution of those rides is given in the two
 plots below. It can be seen that the bulk of the rides for both members
@@ -99,10 +103,9 @@ and casual riders are shorter than 15 minutes, but a higher proportion
 of the rides taken by casual riders are longer.
 
 {{< image src="unnamed-chunk-10-1.png" width="80%">}}
-
-\
-
+&nbsp;
 {{< image src="unnamed-chunk-11-1.png" width="80%">}}
+&nbsp;
 
 ### Number of rides from each station
 
@@ -114,8 +117,9 @@ of stations that are moderately busy, and these are scattered throughout
 the business districts of Chicago, including the tourist locations.
 
 {{< image src="cyclistic_station_map.png" width="80%">}}
+&nbsp;
 
-### Use of electic and classic bikes
+### Use of electric and classic bikes
 
 There are two types of bike available in the Cyclistic bike-share
 scheme - electric bikes and classic bikes. The proportion of rides made
