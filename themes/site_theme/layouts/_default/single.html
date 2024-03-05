@@ -1,0 +1,16 @@
+{{ define "main" }}
+<center>
+    <h1 id="post-title">{{ .Title }}</h1>
+</center>
+
+    <div id="post-info" class="dynamicBox">
+        {{if .Params.Params.summary}}
+            <p><i>{{ .Params.Params.summary }}</i></p>
+        {{ end }}
+    </div>
+
+    <div id="post-content">
+        {{ .Content }}
+    </div>
+
+{{ end }}

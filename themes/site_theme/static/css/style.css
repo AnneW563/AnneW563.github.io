@@ -1,0 +1,134 @@
+body {
+    margin-top: 5%;
+    padding-left: 20%;
+    padding-right: 35%;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4;
+    /* background-color: #133955; */
+    /* background-color: #42bbb562; */
+    background-color: #e0e2e2;
+    /* color: burlywood; */
+    color: #081717;
+}
+
+nav {
+    padding-bottom: 1.5em;
+    border-bottom: 0.2em solid #081717;
+    margin-bottom: 2em
+    /* border-bottom: 0.2em solid #F0F0F0; */
+}
+
+nav h1.title{
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 1em;
+    font-size: larger;
+    /* color: #F0F0F0; */
+    color: #2d58b5;
+}
+
+nav a.active {
+    /* font-weight: normal; */
+    text-decoration: underline;
+}
+
+/* nav a.active:hover {
+    text-decoration: none;
+} */
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+div.post {
+    padding: 1em;
+    /* border: 0.2em solid #F0F0F0; */
+    /* border-radius: 1em; */
+}
+
+div.post a {
+    /* color: #F0F0F0; */
+    text-decoration: none;
+    color: #2d58b5;
+}
+
+div.post a:hover {
+    text-decoration: underline;
+}
+
+div.post a.summary {
+    text-decoration: none;
+}
+
+div.post a.summary:hover {
+    /* text-decoration: none; */
+    color: #a2a8a8;
+}
+
+div#post-content {
+    padding: 1em;
+    color: #081717;
+    background-color: #e0e2e2;
+    /* background-color: #f3f4f4; */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4
+    /* background-color: #e7f6f6 */
+    /* border-radius: 1em; */
+}
+
+/* nav a {
+    color: red;
+} */
+
+/* @media screen and (max-width: 640px) {
+    body {
+        padding: 5%;
+    }
+
+    nav h1.title{
+        margin-top: 0;
+    }
+} */
+
+@media screen and (max-width: 1900px) {
+    body {
+        padding-left: 15%;
+        padding-right: 35%;
+        padding-top: 0%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    body {
+        padding-left: 15%;
+        padding-right: 20%;
+        padding-top: 0%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        padding-left: 10%;
+        padding-right: 15%;
+        padding-top: 0%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 0%;
+    }
+}
+
+img {
+    /* width: 60%; */
+    margin: auto;
+    display: block;
+  }

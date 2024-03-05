@@ -1,15 +1,21 @@
 ---
-title: "Cyclistic bike-share case study"
+title: "Bike-Share Case Study"
+date: 2024-03-04
+params:
+    summary: "This is a case study completed as part of the Google Data Analytics
+Professional Certificate. The scenario is that a fictional bike-sharing
+company, Cyclistic, operating in Chicago, wishes to encourage more of
+their casual riders to become annual members."
 ---
-
-# Case study: How does a bike-share navigate speedy success?
 
 This is a case study completed as part of the Google Data Analytics
 Professional Certificate. The scenario is that a fictional bike-sharing
 company, Cyclistic, operating in Chicago, wishes to encourage more of
-their casual riders to become annual members. The data used is publicly
-available data from the City of Chicago’s Divvy bicycle sharing service.
+their casual riders to become annual members. 
 
+Full details of the cleaning, processing and analysing of the data are available on [GitHub](https://github.com/AnneW563/Cyclistic-case-study).
+
+The data used is publicly available data from the City of Chicago’s Divvy bicycle sharing service.
 The license details for this data can be found
 [here](https://divvybikes.com/data-license-agreement).
 
@@ -18,6 +24,7 @@ I have been tasked with answering the following question.
 **How do annual members and casual riders use Cyclistic bikes
 differently?**
 
+# Case study: how does a bike-share navigate speedy success?
 ## Business task
 
 Identify how annual members and casual riders differ in their use of
@@ -57,7 +64,7 @@ group, it can be seen that, while the number of trips by members is at
 its highest on week days, the reverse is true for casual riders - they
 are using the bikes most often at weekends.
 
-{{< image src="/projects/cyclistic_report/unnamed-chunk-3-1.png" width="100%" caption="This is a caption">}}
+{{< image src="/projects/cyclistic_report/unnamed-chunk-3-1.png" width="80%">}}
 
 ### Number of rides by time of day
 
@@ -68,7 +75,7 @@ number of rides made by the Cyclistic members has two peaks, one at 8am
 and the other at 5pm, suggesting that a lot of these rides are for
 commuting to work.
 
-![](unnamed-chunk-6-1.png)
+{{< image src="unnamed-chunk-6-1.png" width="80%">}}
 
 ### Average ride length by day of week
 
@@ -84,16 +91,18 @@ that those taken by the members, particularly at weekends. Taken across
 the whole week, the mean ride length for casual riders is 23 minutes and
 for members, it is 12 minutes.
 
-![](unnamed-chunk-9-1.png)
+{{< image src="unnamed-chunk-9-1.png" width="80%">}}
 
 A closer look at the distribution of those rides is given in the two
 plots below. It can be seen that the bulk of the rides for both members
 and casual riders are shorter than 15 minutes, but a higher proportion
 of the rides taken by casual riders are longer.
 
-![](unnamed-chunk-10-1.png)
+{{< image src="unnamed-chunk-10-1.png" width="80%">}}
 
-![](unnamed-chunk-11-1.png)
+\
+
+{{< image src="unnamed-chunk-11-1.png" width="80%">}}
 
 ### Number of rides from each station
 
@@ -104,7 +113,7 @@ tourist locations or along the lake shore. For members, there are a lot
 of stations that are moderately busy, and these are scattered throughout
 the business districts of Chicago, including the tourist locations.
 
-![](cyclistic_station_map.png)
+{{< image src="cyclistic_station_map.png" width="80%">}}
 
 ### Use of electic and classic bikes
 

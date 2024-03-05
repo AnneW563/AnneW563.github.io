@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Anne Wilson'
-theme = 'exampleTheme'
+theme = 'site_theme'
 
 sectionPagesMenu = true
 
