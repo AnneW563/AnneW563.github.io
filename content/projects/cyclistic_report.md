@@ -65,7 +65,7 @@ group, it can be seen that, while the number of trips by members is at
 its highest on week days, the reverse is true for casual riders - they
 are using the bikes most often at weekends.
 
-{{< image src="/projects/cyclistic_report/unnamed-chunk-3-1.png" width="80%">}}
+{{< image src="unnamed-chunk-3-1.png" width="80%">}}
 &nbsp;
 
 ### Number of rides by time of day
