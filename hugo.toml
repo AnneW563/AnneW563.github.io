@@ -1,5 +1,5 @@
-baseURL = '//example.org/'
-languageCode = 'en-us'
+baseURL = '//website/'
+languageCode = 'en-gb'
 title = 'Anne Wilson'
 theme = 'site_theme'
 
